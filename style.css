@@ -63,9 +63,10 @@ nav ul li a:hover {
    3. SEZIONE HERO (HOME PAGE)
    ========================================= */
 .hero {
-    /* Immagine di un borgo italiano (Siena/Toscana) */
+   .hero {
+    /* Il link tra le parentesi è l'immagine del borgo */
     background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), 
-                      url('https://images.unsplash.com/photo-1543158032-944d6428d085?q=80&w=1920');
+                      url('https://www.caldana.it/files/blog/image/borghi_medievali_belli_Italia_caldana.jpg');
     background-size: cover;
     background-position: center;
     height: 450px;
@@ -74,7 +75,7 @@ nav ul li a:hover {
     align-items: center;
     text-align: center;
     color: #fdfcf5;
-    border-bottom: 4px solid #d7ccc8;
+}
 }
 
 /* =========================================
