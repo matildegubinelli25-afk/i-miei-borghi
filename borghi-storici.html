@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Borghi d'Italia | Home</title>
+    <title>Borghi Storici d'Italia | Elenco</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,7 +13,7 @@
 
     <header>
         <div class="header-container">
-            <h1>Esplora i Borghi d'Italia</h1>
+            <h1>Borghi Storici</h1>
             <nav>
                 <ul>
                     <li><a href="index.html">Home</a></li>
@@ -25,30 +25,81 @@
         </div>
     </header>
 
-    <section class="hero">
-        <div class="hero-content">
-            <h2>Benvenuti tra le perle nascoste del Bel Paese</h2>
-            <p>Dalle vette alpine alle coste cristalline, scopri i borghi più suggestivi d'Italia.</p>
-        </div>
-    </section>
-
     <main class="container">
-        <section class="categorie-preview">
-            <div class="card-cat">
-                <h3>Borghi Storici</h3>
-                <p>Viaggio nel tempo tra castelli e mura medievali.</p>
-                <a href="borghi-storici.html" class="btn">Scopri di più</a>
-            </div>
-            <div class="card-cat">
-                <h3>Borghi di Mare</h3>
-                <p>Il profumo del sale e i colori dei pescatori.</p>
-                <a href="borghi-mare.html" class="btn">Scopri di più</a>
-            </div>
-            <div class="card-cat">
-                <h3>Borghi Fantasma</h3>
-                <p>Il fascino del silenzio e dell'abbandono.</p>
-                <a href="borghi-fantasma.html" class="btn">Scopri di più</a>
-            </div>
+        <p class="intro-text">Un viaggio nel tempo attraverso i borghi più antichi e suggestivi d'Italia.</p>
+
+        <section class="borghi-grid">
+
+            <article class="borgo-card-full">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Forte_di_Bard_dal_basso.jpg/800px-Forte_di_Bard_dal_basso.jpg" alt="Bard">
+                <div class="borgo-info">
+                    <span class="regione">Valle d'Aosta</span>
+                    <h2>Bard</h2>
+                    <p><strong>⏱️ Visita:</strong> 3 ore</p>
+                    <p><strong>📍 Luoghi:</strong> Il Forte di Bard e le stradine medievali.</p>
+                </div>
+            </article>
+
+            <article class="borgo-card-full">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Orta_San_Giulio_Isola.jpg/800px-Orta_San_Giulio_Isola.jpg" alt="Orta San Giulio">
+                <div class="borgo-info">
+                    <span class="regione">Piemonte</span>
+                    <h2>Orta San Giulio</h2>
+                    <p><strong>⏱️ Visita:</strong> 4 ore</p>
+                    <p><strong>📍 Luoghi:</strong> Isola di San Giulio, Piazza Motta.</p>
+                </div>
+            </article>
+
+            <article class="borgo-card-full">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Arqu%C3%A0_Petrarca_01.jpg/800px-Arqu%C3%A0_Petrarca_01.jpg" alt="Arquà Petrarca">
+                <div class="borgo-info">
+                    <span class="regione">Veneto</span>
+                    <h2>Arquà Petrarca</h2>
+                    <p><strong>⏱️ Visita:</strong> 2 ore</p>
+                    <p><strong>📍 Luoghi:</strong> Casa del Petrarca, i vicoli in pietra.</p>
+                </div>
+            </article>
+
+            <article class="borgo-card-full">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Venzone_BW_4.JPG/800px-Venzone_BW_4.JPG" alt="Venzone">
+                <div class="borgo-info">
+                    <span class="regione">Friuli-Venezia Giulia</span>
+                    <h2>Venzone</h2>
+                    <p><strong>⏱️ Visita:</strong> 2.5 ore</p>
+                    <p><strong>📍 Luoghi:</strong> Duomo di Sant'Andrea e mura medievali.</p>
+                </div>
+            </article>
+
+            <article class="borgo-card-full">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Montefioralle_01.jpg/800px-Montefioralle_01.jpg" alt="Montefioralle">
+                <div class="borgo-info">
+                    <span class="regione">Toscana</span>
+                    <h2>Montefioralle</h2>
+                    <p><strong>⏱️ Visita:</strong> 1.5 ore</p>
+                    <p><strong>📍 Luoghi:</strong> Il borgo circolare e le vigne del Chianti.</p>
+                </div>
+            </article>
+
+            <article class="borgo-card-full">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Civita_di_Bagnoregio_2017.jpg/800px-Civita_di_Bagnoregio_2017.jpg" alt="Civita di Bagnoregio">
+                <div class="borgo-info">
+                    <span class="regione">Lazio</span>
+                    <h2>Civita di Bagnoregio</h2>
+                    <p><strong>⏱️ Visita:</strong> 2.5 ore</p>
+                    <p><strong>📍 Luoghi:</strong> Il ponte sospeso e la "città che muore".</p>
+                </div>
+            </article>
+
+            <article class="borgo-card-full">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Locorotondo_01.jpg/800px-Locorotondo_01.jpg" alt="Locorotondo">
+                <div class="borgo-info">
+                    <span class="regione">Puglia</span>
+                    <h2>Locorotondo</h2>
+                    <p><strong>⏱️ Visita:</strong> 3 ore</p>
+                    <p><strong>📍 Luoghi:</strong> Le "cummerse" e il centro storico bianco.</p>
+                </div>
+            </article>
+
         </section>
     </main>
 
