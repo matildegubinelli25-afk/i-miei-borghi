@@ -4,58 +4,258 @@ borghi-storici.html
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Borghi Storici | Esplora</title>
+    <title>Borghi Storici d'Italia | Elenco Completo</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,700;1,400&family=Oswald:wght@500&display=swap" rel="stylesheet">
 </head>
 <body>
 
     <header>
-        <h1>Borghi Storici</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="borghi-storici.html">Storici</a></li>
-                <li><a href="borghi-mare.html">Mare</a></li>
-                <li><a href="borghi-fantasma.html">Fantasma</a></li>
-                <li><a href="contatti.html">Contatti</a></li>
-            </ul>
-        </nav>
+        <div class="header-container">
+            <h1>Borghi Storici d'Italia</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="borghi-storici.html">Storici</a></li>
+                    <li><a href="borghi-mare.html">Mare</a></li>
+                    <li><a href="borghi-fantasma.html">Fantasma</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
     <main class="container">
-        <article class="borgo-card">
-            <h2>Civitella del Tronto (Abruzzo)</h2>
-            <div class="info-grid">
-                <div class="info-item">
-                    <strong>⏱️ Tempo di visita:</strong> 3-4 ore
-                </div>
-                <div class="info-item">
-                    <strong>📍 Da non perdere:</strong> La Fortezza Borbonica, la "Ruetta" (via più stretta d'Italia).
-                </div>
-                <div class="info-item">
-                    <strong>🍴 Ristoranti (Prezzo medio):</strong> 25€ - 45€ a persona.
-                </div>
-            </div>
-        </article>
+        <p class="intro-text">Un viaggio attraverso le 20 regioni italiane, alla scoperta del cuore antico del nostro Paese.</p>
 
-        <article class="borgo-card">
-            <h2>Gradara (Marche)</h2>
-            <div class="info-grid">
-                <div class="info-item">
-                    <strong>⏱️ Tempo di visita:</strong> 2-3 ore
+        <section class="borghi-grid">
+
+            <article class="borgo-card-full">
+                <img src="https://images.unsplash.com/photo-1520175480921-4edfa2983e0f?q=80&w=800" alt="Bard">
+                <div class="borgo-info">
+                    <span class="regione">Valle d'Aosta</span>
+                    <h2>Bard</h2>
+                    <p><strong>⏱️ Visita:</strong> 3 ore</p>
+                    <p><strong>📍 Luoghi:</strong> Forte di Bard, Borgo Medievale.</p>
+                    <p><strong>🍴 Ristoranti:</strong> 30€ - 55€ (Cucina valdostana).</p>
                 </div>
-                <div class="info-item">
-                    <strong>📍 Da non perdere:</strong> Castello di Paolo e Francesca, camminamento di ronda.
+            </article>
+
+            <article class="borgo-card-full">
+                <img src="https://images.unsplash.com/photo-1534346589587-9b4b73289025?q=80&w=800" alt="Orta San Giulio">
+                <div class="borgo-info">
+                    <span class="regione">Piemonte</span>
+                    <h2>Orta San Giulio</h2>
+                    <p><strong>⏱️ Visita:</strong> 4 ore</p>
+                    <p><strong>📍 Luoghi:</strong> Isola di San Giulio, Sacro Monte.</p>
+                    <p><strong>🍴 Ristoranti:</strong> 35€ - 70€ (Tartufo e vini).</p>
                 </div>
-                <div class="info-item">
-                    <strong>🍴 Ristoranti (Prezzo medio):</strong> 30€ - 50€ a persona.
+            </article>
+
+            <article class="borgo-card-full">
+                <img src="https://images.unsplash.com/photo-1533130840411-a88d750c1822?q=80&w=800" alt="Finalborgo">
+                <div class="borgo-info">
+                    <span class="regione">Liguria</span>
+                    <h2>Finalborgo</h2>
+                    <p><strong>⏱️ Visita:</strong> 2.5 ore</p>
+                    <p><strong>📍 Luoghi:</strong> Castel San Giovanni, Basilica di San Biagio.</p>
+                    <p><strong>🍴 Ristoranti:</strong> 25€ - 45€ (Pesto e pesce).</p>
                 </div>
-            </div>
-        </article>
+            </article>
+
+            <article class="borgo-card-full">
+                <img src="https://images.unsplash.com/photo-1595133375806-03719a797c55?q=80&w=800" alt="Sabbioneta">
+                <div class="borgo-info">
+                    <span class="regione">Lombardia</span>
+                    <h2>Sabbioneta</h2>
+                    <p><strong>⏱️ Visita:</strong> 3 ore</p>
+                    <p><strong>📍 Luoghi:</strong> Teatro all'Antica, Palazzo Ducale.</p>
+                    <p><strong>🍴 Ristoranti:</strong> 30€ - 50€ (Tortelli di zucca).</p>
+                </div>
+            </article>
+
+            <article class="borgo-card-full">
+                <img src="https://images.unsplash.com/photo-1536647231454-e0c4f87768f5?q=80&w=800" alt="Glorenza">
+                <div class="borgo-info">
+                    <span class="regione">Trentino-Alto Adige</span>
+                    <h2>Glorenza</h2>
+                    <p><strong>⏱️ Visita:</strong> 2 ore</p>
+                    <p><strong>📍 Luoghi:</strong> Mura medievali intatte, Torri storiche.</p>
+                    <p><strong>🍴 Ristoranti:</strong> 25€ - 40€ (Canederli e speck).</p>
+                </div>
+            </article>
+
+            <article class="borgo-card-full">
+                <img src="https://images.unsplash.com/photo-1629815443722-e0708f519391?q=80&w=800" alt="Arquà Petrarca">
+                <div class="borgo-info">
+                    <span class="regione">Veneto</span>
+                    <h2>Arquà Petrarca</h2>
+                    <p><strong>⏱️ Visita:</strong> 2 ore</p>
+                    <p><strong>📍 Luoghi:</strong> Casa del Petrarca, Laghetto della Costa.</p>
+                    <p><strong>🍴 Ristoranti:</strong> 30€ - 55€ (Brodo di giuggiole).</p>
+                </div>
+            </article>
+
+            <article class="borgo-card-full">
+                <img src="https://images.unsplash.com/photo-1549487405-f938f32243f7?q=80&w=800" alt="Venzone">
+                <div class="borgo-info">
+                    <span class="regione">Friuli-Venezia Giulia</span>
+                    <h2>Venzone</h2>
+                    <p><strong>⏱️ Visita:</strong> 2.5 ore</p>
+                    <p><strong>📍 Luoghi:</strong> Duomo di S. Andrea, Mummie di Venzone.</p>
+                    <p><strong>🍴 Ristoranti:</strong> 20€ - 40€ (Frico e polenta).</p>
+                </div>
+            </article>
+
+            <article class="borgo-card-full">
+                <img src="https://images.unsplash.com/photo-1605342417757-55060401f807?q=80&w=800" alt="Castell'Arquato">
+                <div class="borgo-info">
+                    <span class="regione">Emilia-Romagna</span>
+                    <h2>Castell'Arquato</h2>
+                    <p><strong>⏱️ Visita:</strong> 3 ore</p>
+                    <p><strong>📍 Luoghi:</strong> Rocca Viscontea, Collegiata.</p>
+                    <p><strong>🍴 Ristoranti:</strong> 30€ - 50€ (Pisarei e Fasö).</p>
+                </div>
+            </article>
+
+            <article class="borgo-card-full">
+                <img src="https://images.unsplash.com/photo-1560341772-be9090623a9d?q=80&w=800" alt="Montefioralle">
+                <div class="borgo-info">
+                    <span class="regione">Toscana</span>
+                    <h2>Montefioralle</h2>
+                    <p><strong>⏱️ Visita:</strong> 1.5 ore</p>
+                    <p><strong>📍 Luoghi:</strong> Case in pietra, Cantine storiche.</p>
+                    <p><strong>🍴 Ristoranti:</strong> 35€ - 65€ (Bistecca e Chianti).</p>
+                </div>
+            </article>
+
+            <article class="borgo-card-full">
+                <img src="https://images.unsplash.com/photo-1588693026131-011ca14d9438?q=80&w=800" alt="Spello">
+                <div class="borgo-info">
+                    <span class="regione">Umbria</span>
+                    <h2>Spello</h2>
+                    <p><strong>⏱️ Visita:</strong> 3 ore</p>
+                    <p><strong>📍 Luoghi:</strong> Infiorate, Torri di Properzio.</p>
+                    <p><strong>🍴 Ristoranti:</strong> 25€ - 50€ (Legumi e olio EVO).</p>
+                </div>
+            </article>
+
+            <article class="borgo-card-full">
+                <img src="https://images.unsplash.com/photo-1647413695279-d12328701049?q=80&w=800" alt="Gradara">
+                <div class="borgo-info">
+                    <span class="regione">Marche</span>
+                    <h2>Gradara</h2>
+                    <p><strong>⏱️ Visita:</strong> 3 ore</p>
+                    <p><strong>📍 Luoghi:</strong> Castello di Paolo e Francesca.</p>
+                    <p><strong>🍴 Ristoranti:</strong> 30€ - 50€ (Tagliatelle al ragù).</p>
+                </div>
+            </article>
+
+            <article class="borgo-card-full">
+                <img src="https://images.unsplash.com/photo-1579294879841-6da987f2302b?q=80&w=800" alt="Civita di Bagnoregio">
+                <div class="borgo-info">
+                    <span class="regione">Lazio</span>
+                    <h2>Civita di Bagnoregio</h2>
+                    <p><strong>⏱️ Visita:</strong> 2 ore</p>
+                    <p><strong>📍 Luoghi:</strong> Il ponte sospeso, Chiesa di S. Donato.</p>
+                    <p><strong>🍴 Ristoranti:</strong> 25€ - 45€ (Cinghiale e funghi).</p>
+                </div>
+            </article>
+
+            <article class="borgo-card-full">
+                <img src="https://images.unsplash.com/photo-1616423641454-97880f089851?q=80&w=800" alt="Rocca Calascio">
+                <div class="borgo-info">
+                    <span class="regione">Abruzzo</span>
+                    <h2>Rocca Calascio</h2>
+                    <p><strong>⏱️ Visita:</strong> 2 ore</p>
+                    <p><strong>📍 Luoghi:</strong> Castello più alto d'Italia, S. Maria della Pietà.</p>
+                    <p><strong>🍴 Ristoranti:</strong> 20€ - 35€ (Arrosticini).</p>
+                </div>
+            </article>
+
+            <article class="borgo-card-full">
+                <img src="https://images.unsplash.com/photo-1563214041-38f322305809?q=80&w=800" alt="Fornelli">
+                <div class="borgo-info">
+                    <span class="regione">Molise</span>
+                    <h2>Fornelli</h2>
+                    <p><strong>⏱️ Visita:</strong> 1.5 ore</p>
+                    <p><strong>📍 Luoghi:</strong> Cinta muraria, Palazzo Baronale.</p>
+                    <p><strong>🍴 Ristoranti:</strong> 15€ - 30€ (Cucina povera genuina).</p>
+                </div>
+            </article>
+
+            <article class="borgo-card-full">
+                <img src="https://images.unsplash.com/photo-1533900298318-6b8da08a523e?q=80&w=800" alt="Sant'Agata de' Goti">
+                <div class="borgo-info">
+                    <span class="regione">Campania</span>
+                    <h2>Sant'Agata de' Goti</h2>
+                    <p><strong>⏱️ Visita:</strong> 3 ore</p>
+                    <p><strong>📍 Luoghi:</strong> Duomo dell'Assunta, Ponte sul Martorano.</p>
+                    <p><strong>🍴 Ristoranti:</strong> 25€ - 45€ (Vino Falanghina).</p>
+                </div>
+            </article>
+
+            <article class="borgo-card-full">
+                <img src="https://images.unsplash.com/photo-1541542684-d2538a0f9172?q=80&w=800" alt="Locorotondo">
+                <div class="borgo-info">
+                    <span class="regione">Puglia</span>
+                    <h2>Locorotondo</h2>
+                    <p><strong>⏱️ Visita:</strong> 2.5 ore</p>
+                    <p><strong>📍 Luoghi:</strong> Case "Cummerse", Belvedere sulla Valle d'Itria.</p>
+                    <p><strong>🍴 Ristoranti:</strong> 25€ - 40€ (Orecchiette e Bombette).</p>
+                </div>
+            </article>
+
+            <article class="borgo-card-full">
+                <img src="https://images.unsplash.com/photo-1629815443722-e0708f519391?q=80&w=800" alt="Castelmezzano">
+                <div class="borgo-info">
+                    <span class="regione">Basilicata</span>
+                    <h2>Castelmezzano</h2>
+                    <p><strong>⏱️ Visita:</strong> 3 ore</p>
+                    <p><strong>📍 Luoghi:</strong> Dolomiti Lucane, Volo dell'Angelo.</p>
+                    <p><strong>🍴 Ristoranti:</strong> 25€ - 45€ (Peperoni Cruschi).</p>
+                </div>
+            </article>
+
+            <article class="borgo-card-full">
+                <img src="https://images.unsplash.com/photo-1552560375-961014cc4605?q=80&w=800" alt="Gerace">
+                <div class="borgo-info">
+                    <span class="regione">Calabria</span>
+                    <h2>Gerace</h2>
+                    <p><strong>⏱️ Visita:</strong> 3.5 ore</p>
+                    <p><strong>📍 Luoghi:</strong> Cattedrale Normanna, Castello.</p>
+                    <p><strong>🍴 Ristoranti:</strong> 20€ - 35€ (Nduja e formaggi locali).</p>
+                </div>
+            </article>
+
+            <article class="borgo-card-full">
+                <img src="https://images.unsplash.com/photo-1516246473188-f5e955f1067b?q=80&w=800" alt="Erice">
+                <div class="borgo-info">
+                    <span class="regione">Sicilia</span>
+                    <h2>Erice</h2>
+                    <p><strong>⏱️ Visita:</strong> 4 ore</p>
+                    <p><strong>📍 Luoghi:</strong> Castello di Venere, Duomo.</p>
+                    <p><strong>🍴 Ristoranti:</strong> 30€ - 55€ (Cous cous e pasticceria).</p>
+                </div>
+            </article>
+
+            <article class="borgo-card-full">
+                <img src="https://images.unsplash.com/photo-1528659550308-41720df3866c?q=80&w=800" alt="Castelsardo">
+                <div class="borgo-info">
+                    <span class="regione">Sardegna</span>
+                    <h2>Castelsardo</h2>
+                    <p><strong>⏱️ Visita:</strong> 3 ore</p>
+                    <p><strong>📍 Luoghi:</strong> Castello dei Doria, Museo dell'Intreccio.</p>
+                    <p><strong>🍴 Ristoranti:</strong> 35€ - 60€ (Aragosta e pesce fresco).</p>
+                </div>
+            </article>
+
+        </section>
     </main>
 
     <footer>
-        <p>&copy; 2024 Guida ai Borghi d'Italia</p>
+        <p>&copy; 2024 Guida ai Borghi d'Italia - Passione Viaggi</p>
     </footer>
 
 </body>
