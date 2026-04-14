@@ -66,7 +66,7 @@ nav ul li a:hover {
    .hero {
     /* Il link tra le parentesi è l'immagine del borgo */
     background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), 
-                      url('https://www.caldana.it/files/blog/image/borghi_medievali_belli_Italia_caldana.jpg');
+                      url('https://images.unsplash.com/photo-1543702512-8302005a9f5d?q=80&w=1920');
     background-size: cover;
     background-position: center;
     height: 450px;
