@@ -4,58 +4,148 @@ borghi-fantasma.html
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Borghi Storici | Esplora</title>
+    <title>Borghi Fantasma d'Italia | Il Fascino dell'Abbandono</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,700;1,400&family=Oswald:wght@500&display=swap" rel="stylesheet">
 </head>
 <body>
 
     <header>
-        <h1>Borghi Storici</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="borghi-storici.html">Storici</a></li>
-                <li><a href="borghi-mare.html">Mare</a></li>
-                <li><a href="borghi-fantasma.html">Fantasma</a></li>
-                <li><a href="contatti.html">Contatti</a></li>
-            </ul>
-        </nav>
+        <div class="header-container">
+            <h1>Borghi Fantasma</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="borghi-storici.html">Storici</a></li>
+                    <li><a href="borghi-mare.html">Mare</a></li>
+                    <li><a href="borghi-fantasma.html">Fantasma</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
     <main class="container">
-        <article class="borgo-card">
-            <h2>Civitella del Tronto (Abruzzo)</h2>
-            <div class="info-grid">
-                <div class="info-item">
-                    <strong>⏱️ Tempo di visita:</strong> 3-4 ore
-                </div>
-                <div class="info-item">
-                    <strong>📍 Da non perdere:</strong> La Fortezza Borbonica, la "Ruetta" (via più stretta d'Italia).
-                </div>
-                <div class="info-item">
-                    <strong>🍴 Ristoranti (Prezzo medio):</strong> 25€ - 45€ a persona.
-                </div>
-            </div>
-        </article>
+        <p class="intro-text">Luoghi dove il tempo si è fermato: un viaggio tra rovine, leggende e il silenzio di paesi un tempo vibranti di vita.</p>
 
-        <article class="borgo-card">
-            <h2>Gradara (Marche)</h2>
-            <div class="info-grid">
-                <div class="info-item">
-                    <strong>⏱️ Tempo di visita:</strong> 2-3 ore
+        <section class="borghi-grid">
+
+            <article class="borgo-card-full">
+                <img src="https://images.unsplash.com/photo-1516483638261-f4dbaf036963?q=80&w=800" alt="Craco">
+                <div class="borgo-info">
+                    <span class="regione">Basilicata</span>
+                    <h2>Craco</h2>
+                    <p><strong>⏱️ Visita:</strong> 2 ore (solo con guida)</p>
+                    <p><strong>📍 Luoghi:</strong> La torre normanna, i palazzi nobiliari deserti.</p>
+                    <p><strong>🍴 Ristoranti:</strong> 25€ - 40€ (nei paesi vicini come Pisticci).</p>
                 </div>
-                <div class="info-item">
-                    <strong>📍 Da non perdere:</strong> Castello di Paolo e Francesca, camminamento di ronda.
+            </article>
+
+            <article class="borgo-card-full">
+                <img src="https://images.unsplash.com/photo-1518709268805-4e9042af9f23?q=80&w=800" alt="Galeria Antica">
+                <div class="borgo-info">
+                    <span class="regione">Lazio</span>
+                    <h2>Galeria Antica</h2>
+                    <p><strong>⏱️ Visita:</strong> 1.5 ore</p>
+                    <p><strong>📍 Luoghi:</strong> Resti del castello, chiesa di San Nicola invasa dalla vegetazione.</p>
+                    <p><strong>🍴 Ristoranti:</strong> 30€ - 50€ (area Roma Nord/Anguillara).</p>
                 </div>
-                <div class="info-item">
-                    <strong>🍴 Ristoranti (Prezzo medio):</strong> 30€ - 50€ a persona.
+            </article>
+
+            <article class="borgo-card-full">
+                <img src="https://images.unsplash.com/photo-1544085311-11a028465b03?q=80&w=800" alt="Pentedattilo">
+                <div class="borgo-info">
+                    <span class="regione">Calabria</span>
+                    <h2>Pentedattilo</h2>
+                    <p><strong>⏱️ Visita:</strong> 2.5 ore</p>
+                    <p><strong>📍 Luoghi:</strong> Rupe a forma di mano, botteghe artigiane riaperte in estate.</p>
+                    <p><strong>🍴 Ristoranti:</strong> 20€ - 35€ (Cucina grecanica locale).</p>
                 </div>
-            </div>
-        </article>
+            </article>
+
+            <article class="borgo-card-full">
+                <img src="https://images.unsplash.com/photo-1444212477490-ca40a0fd5413?q=80&w=800" alt="Vagli">
+                <div class="borgo-info">
+                    <span class="regione">Toscana</span>
+                    <h2>Fabbriche di Careggine</h2>
+                    <p><strong>⏱️ Visita:</strong> Visibile solo quando il lago di Vagli viene svuotato.</p>
+                    <p><strong>📍 Luoghi:</strong> Case in pietra sommerse, il ponte di ferro.</p>
+                    <p><strong>🍴 Ristoranti:</strong> 25€ - 45€ (Specialità della Garfagnana).</p>
+                </div>
+            </article>
+
+            <article class="borgo-card-full">
+                <img src="https://images.unsplash.com/photo-1505144808419-1957a94ca61e?q=80&w=800" alt="Consonno">
+                <div class="borgo-info">
+                    <span class="regione">Lombardia</span>
+                    <h2>Consonno</h2>
+                    <p><strong>⏱️ Visita:</strong> 1 ora</p>
+                    <p><strong>📍 Luoghi:</strong> Il Minareto (ex centro commerciale), le rovine della "Las Vegas brianzola".</p>
+                    <p><strong>🍴 Ristoranti:</strong> 30€ - 50€ (nei pressi di Olginate).</p>
+                </div>
+            </article>
+
+            <article class="borgo-card-full">
+                <img src="https://images.unsplash.com/photo-1554188248-986adbb73be4?q=80&w=800" alt="Gairo">
+                <div class="borgo-info">
+                    <span class="regione">Sardegna</span>
+                    <h2>Gairo Vecchio</h2>
+                    <p><strong>⏱️ Visita:</strong> 2 ore</p>
+                    <p><strong>📍 Luoghi:</strong> Strade deserte scavate nella roccia, case dai colori pastello sbiaditi.</p>
+                    <p><strong>🍴 Ristoranti:</strong> 25€ - 45€ (Culurgiones dell'Ogliastra).</p>
+                </div>
+            </article>
+
+            <article class="borgo-card-full">
+                <img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?q=80&w=800" alt="Roscigno">
+                <div class="borgo-info">
+                    <span class="regione">Campania</span>
+                    <h2>Roscigno Vecchia</h2>
+                    <p><strong>⏱️ Visita:</strong> 1.5 ore</p>
+                    <p><strong>📍 Luoghi:</strong> Piazza principale, Museo della civiltà contadina.</p>
+                    <p><strong>🍴 Ristoranti:</strong> 20€ - 35€ (Prodotti del Cilento).</p>
+                </div>
+            </article>
+
+            <article class="borgo-card-full">
+                <img src="https://images.unsplash.com/photo-1470770841072-f978cf4d019e?q=80&w=800" alt="Balestrino">
+                <div class="borgo-info">
+                    <span class="regione">Liguria</span>
+                    <h2>Balestrino</h2>
+                    <p><strong>⏱️ Visita:</strong> 1.5 ore (area in sicurezza)</p>
+                    <p><strong>📍 Luoghi:</strong> Castello dei Del Carretto, il borgo medievale superiore.</p>
+                    <p><strong>🍴 Ristoranti:</strong> 30€ - 50€ (Olio ligure e trofie).</p>
+                </div>
+            </article>
+
+            <article class="borgo-card-full">
+                <img src="https://images.unsplash.com/photo-1533588841144-74dfeb79f0ba?q=80&w=800" alt="Chiavari">
+                <div class="borgo-info">
+                    <span class="regione">Emilia-Romagna</span>
+                    <h2>Chiavari di Bardi</h2>
+                    <p><strong>⏱️ Visita:</strong> 1 ora</p>
+                    <p><strong>📍 Luoghi:</strong> Antica stazione di posta, case di montagna abbandonate.</p>
+                    <p><strong>🍴 Ristoranti:</strong> 25€ - 40€ (Funghi porcini della Val Ceno).</p>
+                </div>
+            </article>
+
+            <article class="borgo-card-full">
+                <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?q=80&w=800" alt="Salmaregia">
+                <div class="borgo-info">
+                    <span class="regione">Marche</span>
+                    <h2>Salmaregia</h2>
+                    <p><strong>⏱️ Visita:</strong> 1 ora</p>
+                    <p><strong>📍 Luoghi:</strong> Torri di avvistamento, sentieri nel bosco.</p>
+                    <p><strong>🍴 Ristoranti:</strong> 20€ - 35€ (Salumi e formaggi di Fabriano).</p>
+                </div>
+            </article>
+
+        </section>
     </main>
 
     <footer>
-        <p>&copy; 2024 Guida ai Borghi d'Italia</p>
+        <p>&copy; 2024 Guida ai Borghi d'Italia - Passione Viaggi</p>
     </footer>
 
 </body>
