@@ -64,8 +64,7 @@ nav ul li a:hover {
    ========================================= */
 .hero {
    .hero {
-    /* Il link tra le parentesi è l'immagine del borgo */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), 
+   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), 
                       url('https://images.unsplash.com/photo-1543702512-8302005a9f5d?q=80&w=1920');
     background-size: cover;
     background-position: center;
@@ -75,6 +74,7 @@ nav ul li a:hover {
     align-items: center;
     text-align: center;
     color: #fdfcf5;
+    border-bottom: 4px solid #d7ccc8;
 }
 }
 
