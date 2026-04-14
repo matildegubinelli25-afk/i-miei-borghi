@@ -63,9 +63,9 @@ nav ul li a:hover {
    3. SEZIONE HERO (HOME PAGE)
    ========================================= */
 .hero {
-   .hero {
-   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), 
-                      url('https://images.unsplash.com/photo-1543702512-8302005a9f5d?q=80&w=1920');
+    /* Immagine di un borgo italiano (Siena/Toscana) */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), 
+                      url('https://images.unsplash.com/photo-1543158032-944d6428d085?q=80&w=1920');
     background-size: cover;
     background-position: center;
     height: 450px;
@@ -75,7 +75,6 @@ nav ul li a:hover {
     text-align: center;
     color: #fdfcf5;
     border-bottom: 4px solid #d7ccc8;
-}
 }
 
 /* =========================================
