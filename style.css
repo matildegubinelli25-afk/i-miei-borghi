@@ -192,3 +192,25 @@ footer {
         height: auto;
     }
 }
+.tabella-borghi {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #f1e0d6; /* Colore sabbia */
+}
+
+.tabella-borghi th, .tabella-borghi td {
+    border: 1px solid #d7ccc8;
+    padding: 12px;
+    text-align: left;
+}
+
+.tabella-borghi th {
+    background-color: #3e2723; /* Legno scuro */
+    color: #fdfcf5;
+    font-family: 'Oswald', sans-serif;
+}
+
+.tabella-borghi tr:nth-child(even) {
+    background-color: #e5d3c8; /* Riga alternata leggermente più scura */
+}
