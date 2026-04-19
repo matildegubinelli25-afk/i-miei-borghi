@@ -192,11 +192,13 @@ footer {
         height: auto;
     }
 }
+
+/* Stile per la tabella alloggi */
 .tabella-borghi {
     width: 100%;
     border-collapse: collapse;
     margin-top: 20px;
-    background-color: #f1e0d6; /* Colore sabbia */
+    background-color: #f1e0d6; 
 }
 
 .tabella-borghi th, .tabella-borghi td {
@@ -206,11 +208,11 @@ footer {
 }
 
 .tabella-borghi th {
-    background-color: #3e2723; /* Legno scuro */
+    background-color: #3e2723;
     color: #fdfcf5;
     font-family: 'Oswald', sans-serif;
 }
 
 .tabella-borghi tr:nth-child(even) {
-    background-color: #e5d3c8; /* Riga alternata leggermente più scura */
+    background-color: #e5d3c8;
 }
