@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Borghi Fantasma d'Italia | Il Fascino dell'Abbandono</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,700;1,400&family=Oswald:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <div class="header-container">
+            <h1>Borghi Fantasma</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="borghi-storici.html">Storici</a></li>
+                    <li><a href="borghi-mare.html">Mare</a></li>
+                    <li><a href="borghi-fantasma.html">Fantasma</a></li>
+                    <li><a href="video-borghi.html">Video</a></li>
+                    <li><a href="alloggi.html">Alloggi</a></li>
+                    <li><a href="registrazione.html">Registrati</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <p class="intro-text">Luoghi dove il tempo si è fermato: un viaggio tra rovine, leggende e il silenzio di paesi un tempo vibranti di vita.</p>
+
+        <section class="borghi-grid">
+
+            <article class="borgo-card-full">
+                <img src="https://media-assets.ad-italia.it/photos/658d744d50b5975ed593a399/16:9/w_2560%2Cc_limit/GettyImages-915209394.jpg" alt="Craco">
+                <div class="borgo-info">
+                    <span class="regione">Basilicata</span>
+                    <h2>Craco</h2>
+                    <p><strong>⏱️ Visita:</strong> 2 ore (solo con guida)</p>
+                    <p><strong>📍 Luoghi:</strong> La torre normanna, i palazzi nobiliari deserti.</p>
+                    <p><strong>🍴 Ristoranti:</strong> 25€ - 40€ (nei paesi vicini come Pisticci).</p>
+                    <p><strong>🗺️ Posizone Maps:</strong><a href="https://maps.app.goo.gl/XnpsaL5nkNnE2nQE7" target="_blank">Posizione di Craco </a></p>
+                </div>
+            </article>
+
+            <article class="borgo-card-full">
+                <img src="https://sotterraneidiroma.it/tmedia/t_209/galeria_1.jpg" alt="Galeria Antica">
+                <div class="borgo-info">
+                    <span class="regione">Lazio</span>
+                    <h2>Galeria Antica</h2>
+                    <p><strong>⏱️ Visita:</strong> 1.5 ore</p>
+                    <p><strong>📍 Luoghi:</strong> Resti del castello, chiesa di San Nicola invasa dalla vegetazione.</p>
+                    <p><strong>🍴 Ristoranti:</strong> 30€ - 50€ (area Roma Nord/Anguillara).</p>
+                    <p><strong>🗺️ Posizone Maps:</strong><a href="https://maps.app.goo.gl/EVs2sKrZe8sDjnKR7" target="_blank">Posizione di Galeria Antica </a></p>
+                </div>
+            </article>
+
+            <article class="borgo-card-full">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/9/9c/Vista_Pentedattilo04.jpg" alt="Pentedattilo">
+                <div class="borgo-info">
+                    <span class="regione">Calabria</span>
+                    <h2>Pentedattilo</h2>
+                    <p><strong>⏱️ Visita:</strong> 2.5 ore</p>
+                    <p><strong>📍 Luoghi:</strong> Rupe a forma di mano, botteghe artigiane riaperte in estate.</p>
+                    <p><strong>🍴 Ristoranti:</strong> 20€ - 35€ (Cucina grecanica locale).</p>
+                    <p><strong>🗺️ Posizone Maps:</strong><a href="https://maps.app.goo.gl/1EhFmwg2LGvw5yC1A" target="_blank">Posizione di Pentedattilo </a></p>
+                </div>
+            </article>
+
+            <article class="borgo-card-full">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/4/4d/Fabbriche_di_Careggine.jpg" alt="Vagli">
+                <div class="borgo-info">
+                    <span class="regione">Toscana</span>
+                    <h2>Fabbriche di Careggine</h2>
+                    <p><strong>⏱️ Visita:</strong> Visibile solo quando il lago di Vagli viene svuotato.</p>
+                    <p><strong>📍 Luoghi:</strong> Case in pietra sommerse, il ponte di ferro.</p>
+                    <p><strong>🍴 Ristoranti:</strong> 25€ - 45€ (Specialità della Garfagnana).</p>
+                    <p><strong>🗺️ Posizone Maps:</strong><a href="https://maps.app.goo.gl/Edsf52X2XayvRSXt9" target="_blank">Posizione di Fabbriche di Careggine </a></p>
+                </div>
+            </article>
+
+            <article class="borgo-card-full">
+                <img src="https://www.consonno.it/immagini/consonnoprima.jpg" alt="Consonno">
+                <div class="borgo-info">
+                    <span class="regione">Lombardia</span>
+                    <h2>Consonno</h2>
+                    <p><strong>⏱️ Visita:</strong> 1 ora</p>
+                    <p><strong>📍 Luoghi:</strong> Il Minareto (ex centro commerciale), le rovine della "Las Vegas brianzola".</p>
+                    <p><strong>🍴 Ristoranti:</strong> 30€ - 50€ (nei pressi di Olginate).</p>
+                    <p><strong>🗺️ Posizone Maps:</strong><a href="https://maps.app.goo.gl/49sccG9G3jTmRKqw9" target="_blank">Posizione di Consonno </a></p>
+                </div>
+            </article>
+
+            <article class="borgo-card-full">
+                <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/10/fe/98/3a/gairo-vecchio.jpg?w=1200&h=1200&s=1" alt="Gairo">
+                <div class="borgo-info">
+                    <span class="regione">Sardegna</span>
+                    <h2>Gairo Vecchio</h2>
+                    <p><strong>⏱️ Visita:</strong> 2 ore</p>
+                    <p><strong>📍 Luoghi:</strong> Strade deserte scavate nella roccia, case dai colori pastello sbiaditi.</p>
+                    <p><strong>🍴 Ristoranti:</strong> 25€ - 45€ (Culurgiones dell'Ogliastra).</p>
+                    <p><strong>🗺️ Posizone Maps:</strong><a href="https://maps.app.goo.gl/YL9KgYx87qvruL2k6" target="_blank">Posizione di Gairo Vecchio </a></p>
+                </div>
+            </article>
+
+            <article class="borgo-card-full">
+                <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/09/3a/76/2a/roscigno-vecchia.jpg?w=1200&h=-1&s=1" alt="Roscigno">
+                <div class="borgo-info">
+                    <span class="regione">Campania</span>
+                    <h2>Roscigno Vecchia</h2>
+                    <p><strong>⏱️ Visita:</strong> 1.5 ore</p>
+                    <p><strong>📍 Luoghi:</strong> Piazza principale, Museo della civiltà contadina.</p>
+                    <p><strong>🍴 Ristoranti:</strong> 20€ - 35€ (Prodotti del Cilento).</p>
+                    <p><strong>🗺️ Posizone Maps:</strong><a href="https://maps.app.goo.gl/ypkQHJq5Vi7yGqxJA" target="_blank">Posizione di Roscigno Vecchia </a></p>
+                </div>
+            </article>
+
+            <article class="borgo-card-full">
+                <img src="https://siviaggia.it/wp-content/uploads/sites/2/2019/08/vista-di-balestrino-1.jpg" alt="Balestrino">
+                <div class="borgo-info">
+                    <span class="regione">Liguria</span>
+                    <h2>Balestrino</h2>
+                    <p><strong>⏱️ Visita:</strong> 1.5 ore (area in sicurezza)</p>
+                    <p><strong>📍 Luoghi:</strong> Castello dei Del Carretto, il borgo medievale superiore.</p>
+                    <p><strong>🍴 Ristoranti:</strong> 30€ - 50€ (Olio ligure e trofie).</p>
+                    <p><strong>🗺️ Posizone Maps:</strong><a href="https://maps.app.goo.gl/3YTvSVBWR53GXNWZ7" target="_blank">Posizione di Balestrino </a></p>
+                </div>
+            </article>
+
+            <article class="borgo-card-full">
+                <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/06/f6/bd/6f/lungomare-di-chiavari.jpg?w=600&h=400&s=1" alt="Chiavari">
+                <div class="borgo-info">
+                    <span class="regione">Emilia-Romagna</span>
+                    <h2>Chiavari di Bardi</h2>
+                    <p><strong>⏱️ Visita:</strong> 1 ora</p>
+                    <p><strong>📍 Luoghi:</strong> Antica stazione di posta, case di montagna abbandonate.</p>
+                    <p><strong>🍴 Ristoranti:</strong> 25€ - 40€ (Funghi porcini della Val Ceno).</p>
+                    <p><strong>🗺️ Posizone Maps:</strong><a href="https://maps.app.goo.gl/vyoQDnkRxGQR8e4BA" target="_blank">Posizione di Chiavari di Bardi </a></p>
+                </div>
+            </article>
+
+            <article class="borgo-card-full">
+                <img src="https://gianoaltoesino.weebly.com/uploads/1/5/4/2/15427066/8145535_orig.jpg" alt="Salmaregia">
+                <div class="borgo-info">
+                    <span class="regione">Marche</span>
+                    <h2>Salmaregia</h2>
+                    <p><strong>⏱️ Visita:</strong> 1 ora</p>
+                    <p><strong>📍 Luoghi:</strong> Torri di avvistamento, sentieri nel bosco.</p>
+                    <p><strong>🍴 Ristoranti:</strong> 20€ - 35€ (Salumi e formaggi di Fabriano).</p>
+                    <p><strong>🗺️ Posizone Maps:</strong><a href="https://maps.app.goo.gl/p8c6D3R1ynpLYpe36" target="_blank">Posizione di Salmaregia </a></p>
+                </div>
+            </article>
+
+        </section>
+    </main>
+
+    <footer>
+    </footer>
+
+</body>
+</html>
