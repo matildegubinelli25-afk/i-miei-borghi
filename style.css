@@ -173,3 +173,22 @@ footer {
     .borgo-card-full img, .borgo-info { width: 100%; }
     nav ul { gap: 10px; font-size: 0.9rem; }
 }
+/* Stile per il contenitore del video */
+.video-section {
+    text-align: center;
+    padding: 20px;
+}
+
+.video-container {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+/* Rende il video responsivo */
+@media (max-width: 850px) {
+    .video-container iframe {
+        width: 100%;
+        height: auto;
+    }
+}
