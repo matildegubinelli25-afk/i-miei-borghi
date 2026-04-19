@@ -27,9 +27,9 @@
     </header>
 
     <main class="container">
-        <section class="form-container">
+        <section id="form-wrapper" class="form-container">
             <h2>Registrati al portale</h2>
-            <form action="#" method="POST">
+            <form id="registrazioneForm">
                 <div class="form-group">
                     <label for="email">Inserisci la tua email:</label>
                     <input type="email" id="email" name="email" required>
@@ -45,10 +45,29 @@
                 <button type="submit" class="btn">Invia Dati</button>
             </form>
         </section>
+
+        <div id="messaggioSuccesso" class="form-container" style="display:none; text-align:center;">
+            <h2 style="color: #8a9a5b;">Registrazione completata!</h2>
+            <p>Grazie per esserti registrato al nostro portale dei Borghi.</p>
+            <br>
+            <a href="index.html" class="btn">Torna alla Home</a>
+        </div>
     </main>
 
     <footer>
     </footer>
+
+    <script>
+        document.getElementById('registrazioneForm').addEventListener('submit', function(event) {
+            // Impedisce al form di inviare dati al server (evita l'errore 405)
+            event.preventDefault();
+            
+            // Nasconde il modulo
+            document.getElementById('form-wrapper').style.display = 'none';
+            // Mostra il messaggio di successo
+            document.getElementById('messaggioSuccesso').style.display = 'block';
+        });
+    </script>
 
 </body>
 </html>
