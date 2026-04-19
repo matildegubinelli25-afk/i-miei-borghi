@@ -63,16 +63,19 @@ nav ul li a:hover {
    3. SEZIONE HERO (HOME PAGE)
    ========================================= */
 .hero {
-    /* Rimuoviamo l'immagine e mettiamo il grigio scuro */
-    background-color: #7a7a7a; 
+    /* Sostituisci 'la-tua-immagine.jpg' con il percorso reale del tuo file */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('https://www.caldana.it/files/blog/image/size1/Borghi_medievali_piu_belli_d_Italia.jpg');
+    
+    background-size: cover;          /* L'immagine copre tutto lo spazio */
+    background-position: center;     /* L'immagine resta centrata */
+    background-repeat: no-repeat;    /* Evita che l'immagine si ripeta */
+    
     height: 400px;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     color: #fdfcf5;
-    /* Opzionale: aggiungi una sfumatura se vuoi un effetto più profondo */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1));
 }
 
 /* =========================================
